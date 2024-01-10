@@ -12,11 +12,6 @@
   }
 }
 
-.centered {
-  margin: 0 auto;
-  text-align: center;
-}
-
 body {
   font-family: Lexend, sans-serif;
   background-color: #090808;
@@ -37,17 +32,33 @@ button {
   transition-duration: 600ms;
 }
 
+
 button:hover {
   background-color: #fffdfd; 
   color: rgb(0, 0, 0);
 }
 
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contentier {
+  width: 80%;
+  max-width: 1000px; /* Adjust as needed */
+  margin: auto 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+
+}
 .main-container {
   width: 80%;
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1000px; /* Adjust as needed */
   margin: 0 auto;
   height: auto;
-  display: flex; /* Optional: Use flexbox for layout */
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
