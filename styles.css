@@ -2,4 +2,10 @@ body {
     background-color: black;
     color: white;
     font: 16px/1.5 Lexend;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
