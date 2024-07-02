@@ -13,7 +13,9 @@ body {
 button {
     background-color: transparent;
     color: white;
-    font: 12px/1.5 Lexend;
+    font: 14px Lexend;
+    border: 1px solid white;
+    border-radius: 20%;
     cursor: auto;
     width: 100%;
 }
