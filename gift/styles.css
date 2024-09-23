@@ -1,0 +1,87 @@
+/* Import Lexend font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+/* Apply Lexend font to the entire body */
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffe4e1; /* Soft pinkish color */
+}
+
+/* Basic styles for common elements */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+h2 {
+    padding: 1em 0; /* Additional padding for h2 */
+}
+
+p {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    font-family: 'Lexend', sans-serif;
+    cursor: pointer;
+}
+
+/* Utility classes */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing between sections */
+}
+
+.flex-container p, .flex-container div {
+    flex: 1;
+}
+
+.right-image, .image, .left-image {
+    border: 3px  #000; /* Add a border to the images */
+    border-radius: 10%;
+}
+.right-image {
+    max-width: 200px; /* Adjust the size as needed */
+    margin-left: 20px; /* Adjust the spacing as needed */
+}
+
+.left-image {
+    max-width: 200px; /* Adjust the size as needed */
+    margin-right: 20px; /* Adjust the spacing as needed */
+}
+
+.image {
+    max-width: 450px; /* Adjust the size as needed */
+}
